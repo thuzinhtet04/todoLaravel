@@ -56,7 +56,7 @@ class TaskController extends Controller
 
 
         $task->update($updateTask);
-        
+
         return redirect("/");
     }
 }
